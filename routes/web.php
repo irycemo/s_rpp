@@ -15,3 +15,5 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::livewire('/test', 'pages::test');
